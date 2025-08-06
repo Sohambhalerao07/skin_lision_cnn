@@ -1,0 +1,66 @@
+# === Python cache ===
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# === Jupyter Notebook checkpoints ===
+.ipynb_checkpoints/
+
+# === Virtual environments ===
+env/
+venv/
+.venv/
+ENV/
+*.env
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === IDEs ===
+.vscode/
+.idea/
+
+# === Logs and outputs ===
+*.log
+*.out
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# === Large datasets ===
+/data/
+dataset/
+datasets/
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# === Model weights/checkpoints ===
+checkpoints/
+models/
+runs/
+output/
+*.h5
+
+# === Environment config ===
+*.env
+.env.*
+
+# === VS Code debug history ===
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# === Colab / Jupyter outputs ===
+*.nbconvert.ipynb
+
+# === Other ===
+*.bak
+*.tmp
